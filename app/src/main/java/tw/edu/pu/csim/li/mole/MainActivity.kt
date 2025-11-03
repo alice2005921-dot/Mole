@@ -52,7 +52,7 @@ fun MoleScreen() {
         contentDescription = "地鼠",
         modifier = Modifier
             .offset { IntOffset(50, 200) }
-            .size(150.dp)
+            .size(size = 150.dp)
             .clickable { counter++ }
 
     )
